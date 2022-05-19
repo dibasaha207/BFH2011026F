@@ -1,0 +1,131 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{mathtools}
+\usepackage{}
+\title{\textbf{Data Structure : Theoretical Approach}}
+\author{\textbf{Durgesh Raghuvanshi}}
+\date{May 2022}
+
+\begin{document}
+
+\maketitle
+\begin{center}
+    
+\end{center}
+
+\section{\textbf{ABSTRACT}}
+Run with accordance with significance. The first if 
+these this paper explains about the basic terminologies 
+used in this paper in data structure. Better running 
+times will be other constraints, such as memory use 
+which will be paramount. The most appropriate data 
+structures and algorithms rather than through hacking 
+removing a few statements by some clever coding. 
+Data structures serve as the basis for abstract data 
+types (ADT). "The ADT defines the logical form of 
+the data type. The data structure implements the 
+physical form of the data type."Different types of data 
+structures are suited to different kinds of applications, 
+and some are highly specialized to specific tasks. For 
+example, relational databases commonly use B-tree 
+indexes for data retrieval, while compiler 
+implementations usually use hash tables to look up 
+identifiers
+\section{\textbf{INTRODUCTION:}}
+Data structures serve as the basis for abstract data 
+types (ADT). "The ADT defines the logical form of 
+the data type. The data structure implements the 
+physical form of the data type."Different types of data 
+structures are suited to different kinds of applications, 
+and some are highly specialized to specific tasks. For 
+example, relational databases commonly use B-tree 
+indexes for data retrieval, while compiler 
+implementations usually use hash tables to look up 
+identifiers. Data structures provide a means to manage 
+large amounts of data efficiently for uses such as large 
+databases and internet indexing services. Usually, 
+efficient data structures are key to designing efficient 
+algorithms. Some formal design methods and 
+programming languages emphasize data structures, 
+rather than algorithms, as the key organizing factor in 
+software design. Data structures can be used to 
+organize the storage and retrieval of information 
+stored in both main memory and secondary memory. 
+Data structures are generally based on the ability of a computer to fetch and store data at any place in its 
+memory, specified by a pointer—a bit string, 
+representing a memory address, that can be itself 
+stored in memory and manipulated by the program. 
+
+The implementation of a data structure usually 
+requires writing a set of procedures that create and 
+manipulate instances of that structure. The efficiency 
+of a data structure cannot be analyzed separately from 
+those operations. This observation motivates the 
+theoretical concept of an abstract data type, a data 
+structure that is defined indirectly by the operations 
+that may be performed on it, and the mathematical 
+properties of those operations (including their space 
+and time cost).[citation needed]An array is a number 
+of elements in a specific order, typically all of the 
+same type (depending on the language, individual 
+elements may either all be forced to be the same type, 
+or may be of almost any type). Elements are accessed 
+using an integer index to specify which element is 
+required. Typical implementations allocate contiguous 
+memory words for the elements of arrays (but this is 
+not necessity). Arrays may be fixed-length or 
+resizable. A linked list (also just called list) is a linear 
+collection of data elements of any type, called nodes, 
+where each node has itself a value, and points to the 
+next node in the linked list. The principal advantage 
+of a linked list over an array, is that values can always 
+be efficiently inserted and removed without relocating 
+the rest of the list. Certain other operations, such as 
+random access to a certain element, are however 
+slower on lists than on arrays. Most assembly.
+
+
+
+\section{\textbf{Algorithm complexity}}
+\begin{table}[]
+    \centering
+    \begin{tabular}{|l|c|r|}
+    \hline    
+    Algorithm   &  Best Case & Expected\\
+    \hline
+     Selection Sort   & O(N2) &  O(N2)\\
+     \hline
+     Merge sort & O(NlogN) &  O(NlogN)\\
+     \hline
+     Linear search &  O(1)  & O(N)
+  
+    
+    \end{tabular}
+    \caption{Algorithm complexity}
+    \label{tab:my_label}
+\end{table}
+\section{\textbf{Depth of node}}
+The depth of node is the length of the path from the 
+root to the node. A rooted tree with only one node has 
+a depth of zero.
+\section{\textbf{Threaded binary tree}}
+In a threaded binary tree all the null printers which 
+wasted the space in linked representation is converted 
+into useful links called threads thus representation of a 
+binary tree using these threads is called threaded 
+binary tree.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{download.jpg}
+    \caption{Assignment}
+    \label{fig:my_label}
+\end{figure}
+\section{\textbf{Equation}}
+Equation is $y = mx+c$
+
+Equation is $y = x^2$
+
+\end{document}
